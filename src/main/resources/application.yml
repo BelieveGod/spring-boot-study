@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8088
   jsp-servlet:
       init-parameters:
          development: true
@@ -12,9 +12,9 @@ spring:
 #数据库连接
     datasource:
        driverClassName: com.mysql.jdbc.Driver
-       url: jdbc:mysql://localhost:3306/tj?characterEncoding=UTF-8&serverTimezone=UTC
+       url: jdbc:mysql://localhost:3306/kkk?characterEncoding=UTF-8&serverTimezone=UTC
        username: root
-       password: ecwalk
+       password: root
        type: com.zaxxer.hikari.HikariDataSource
 #hikari连接池
        hikari: 
